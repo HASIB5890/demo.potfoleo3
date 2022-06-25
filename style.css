@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@700&family=Licorice&family=Pacifico&family=Quintessential&display=swap');
+
+
+*{
+    margin: 0px;
+padding: 0px;
+}
+
+/* main opan */
+.feather{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.feather h3{
+    color: firebrick;
+    font-size: 40px;
+        font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Licorice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Quintessential', cursive;
+}
+.feather h4{
+        font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Licorice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Quintessential', cursive;
+}
+.feather p{
+    font-size:20px;
+    color: dimgray;
+}
+.hro{
+    /* font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Licorice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Quintessential', cursive; */
+   border: 2px solid red;
+   position: absolute;
+   transform: rotate(90deg);
+   margin-top: 80px;
+   width: 280px;
+   margin-left: -180px;
+}
+.icon{
+    margin-top: 30px;
+    text-align: center;
+}
+.icon a{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    /* box-shadow: 5px 5px 5px black; */
+   /* border-radius: 50px; */
+}
+.icon a i{
+margin-left: 10px;
+transition: .3s;
+}
+.icon a i:hover{
+    font-size:40 ;
+box-shadow: 5px 5px 5px black;
+border-radius: 10px;
+ transform: scale(1.4);color: brown;
+    }
+    .feather2{
+background-color: brown;
+height: 400px ;
+width: 400px;
+border-radius: 50%;
+margin: 0 auto;
+margin-top: 100px;
+margin-left:100px;
+    }
+    .img1g{
+margin-top: -80px;
+margin-left: 40px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    .bu{
+        margin-left: 150px;
+        margin-top: 20px;
+        text-align: center;
+    
+    }
+    .icon2{
+    color: brown;
+        margin-top: 90px;
+    }
+    .icon2 .ss{
+     display: inline-block;
+        /* font-size: 50px; */
+        animation-name: hasib;
+        animation-duration: 2s;
+        position: relative;
+    animation-iteration-count: infinite;
+    }
+    @keyframes hasib{
+        0%{
+top: 0;
+left: 0;
+font-size: 60px;
+transform: rotate(10deg);
+opacity: 0.5;
+        }
+        50%{
+color: chartreuse;
+        }
+        100%{
+            color: blue;
+top: 100;
+left: 50;
+opacity: 1;
+font-size: 60px;
+transform: rotate(120deg);
+        }
+    }
+/* main close */
+
+/* about opan */
+.about{
+    margin-top: 30px;
+    text-align: center;
+}
+.ab{
+        font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Licorice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Quintessential', cursive;
+}
+/* about close */
