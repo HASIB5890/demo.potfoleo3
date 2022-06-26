@@ -19,13 +19,31 @@ if(count>=photo.length){
 
 
 }
+function thimall(){
+let thim=document.querySelector(".container");
+thim.classList.add("hasib");
+}
+function rmthim(){
+    let thim=document.querySelector(".container");
+thim.classList.remove("hasib");
+}
 function color(){
 alert("plase w8 code Edating")
 
 }
 function foter(){
-alert("code edat plase...w8")
+let fo=document.querySelector(".foter");
+fo.classList.add("hasib");
 }
 function fote(){
-    alert("plase w8 code edat")
+    let fo=document.querySelector(".foter");
+fo.classList.remove("hasib");
 }
+function con(){
+   let con=document.querySelector(".contack");
+   con.classList.add("hasib");
+}
+function non(){
+    let con=document.querySelector(".contack");
+    con.classList.remove("hasib");
+ }
