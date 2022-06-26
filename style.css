@@ -20,6 +20,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Licorice', cursive;
 font-family: 'Pacifico', cursive;
 font-family: 'Quintessential', cursive;
+z-index: 2;
 }
 .feather h4{
         font-family: 'Akaya Telivigala', cursive;
@@ -74,7 +75,10 @@ border-radius: 50%;
 margin: 0 auto;
 margin-top: 100px;
 margin-left:100px;
+border: 4px solid black;
+
     }
+
     .img1g{
 margin-top: -80px;
 margin-left: 40px;
@@ -122,6 +126,43 @@ transform: rotate(120deg);
     }
 /* main close */
 
+
+/* trm opan */
+.trm{
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+position: absolute;
+    border-radius: 50%;
+border: 4px solid grey;
+font-weight: bolder;
+transform: skew(320deg);
+border-bottom: none;
+animation-name: has;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes has{
+0%{
+    opacity: 0.3;
+color: red;
+}
+50%{
+    opacity: 0.5;
+color: blueviolet;
+}
+100%{
+transform: rotate(120deg);
+opacity: 1;
+color: brown;
+border: 2px solid gold;
+transform: rotate(120deg);
+z-index: 1;
+}
+}
+/* trm close */
+
+
 /* about opan */
 .about{
     margin-top: 30px;
@@ -134,4 +175,126 @@ font-family: 'Licorice', cursive;
 font-family: 'Pacifico', cursive;
 font-family: 'Quintessential', cursive;
 }
+.feather3{
+    margin-top: 50px;
+    text-align: center;
+}
+.fe3-img{
+    height: 420px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 15px gray;
+    /* border: 2px solid black; */
+
+}
+.flo1{
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    transition: 2s;
+}
+.flo1:hover{
+box-shadow: 5px 5px 15px grey;
+    /* border: 2px solid black; */
+    padding: 10px;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.abo{
+    color: red;
+    animation-name: abo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes abo{
+    0%{
+
+    }
+    50%{
+        opacity: 0.5;
+        color: blue;
+        transform: rotate(50deg);
+
+    }
+    100%{
+        color: chartreuse;
+        transform: rotate(120deg);
+    }
+}
 /* about close */
+
+/* contack opan */
+.contack{
+    margin-top: 120px;
+}
+
+.fe-4{
+    text-align: center;
+}
+
+.fe-4 h1{
+    color: brown;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Licorice', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quintessential', cursive;
+}
+.con-hr{
+    border: 2px solid black;
+    width: 180px;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.fe-5{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fe-ad{
+    font-size: 30px;
+    
+}
+.fec{
+    margin-left: 40px;
+    margin-top: -30px;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Licorice', cursive; */
+    font-family: 'Pacifico', cursive;
+    color: brown;
+}
+.lab1{
+  font-weight: bolder;
+}
+/* contack close */
+/* footer opan */
+.foter{
+    padding: 5px;
+    /* background-color: brown; */
+    box-shadow: 5px 5px 15px gray;
+  
+}
+.icon4 a{
+    font-size: 30px;
+padding: 10px;
+box-shadow: 2px 2px 2px black;
+
+}
+.icon4 a:hover{
+    box-shadow: 5px 5px 15px black;
+    /* font-size: 30px; */
+padding: 10px;
+border-radius: 20px;
+
+}
+/* .foter{
+background-color: brown;
+} */
+.fo{
+    margin-top: 40px;
+    text-align: center;
+}
+/* footer close */

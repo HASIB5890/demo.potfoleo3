@@ -20,6 +20,12 @@ if(count>=photo.length){
 
 }
 function color(){
-alert("Hasib succes value")
-  
+alert("plase w8 code Edating")
+
+}
+function foter(){
+alert("code edat plase...w8")
+}
+function fote(){
+    alert("plase w8 code edat")
 }
