@@ -7,7 +7,19 @@
     .bu{
         margin-left: -50px;
     }
-    
+    .dro{
+transition: .3s;
+    }
+    .dro:hover{
+transform: scale(0.8);
+    }
+    /*nav bbar opan  */
+    .nav-item a{
+        color: tomato;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    /* navbar close */
 .flo1{
     margin: 30px;
     margin-top: 50px;
@@ -30,5 +42,31 @@ box-shadow: 5px 5px 15px grey;
     margin-left: 420px;
     margin-top: -50px;
 }
+/* slaider opn */
+.sli-img{
+    height: 300px;
+    width: 200px;
+}
+/* slider close */
 
+/* fether opn  */
+.fe-thi:hover{
+    transform: scale(0.9);
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* feather close */
+/* map opan */
+.map2{
+    margin-left: 60px;
+    text-align: center;
+    height: 180px;
+    width: 150px;
+}
+
+/* map close */
 }

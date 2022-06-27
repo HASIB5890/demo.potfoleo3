@@ -24,34 +24,37 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Hasib</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class='bx bx-home-smile icon-home'></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto text-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active"href="#"><i class='bx bx-home-smile'></i>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#"><i class='bx bx-transfer-alt'></i>Feather</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              <i class='bx bx-git-merge'></i> Market-place
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"></i>Fiver.com</a></li>
+              <li><a class="dropdown-item" href="#"><i class='bx bxl-upwork'></i>upwork.com</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#"><i class='bx bx-photo-album'></i>stark-ovar-flo</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active"href="#"><i class='bx bx-task'></i>skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"href="#"><i class='bx bx-photo-album'></i>ABout-Me</a>
           </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <i class='bx bx-search-alt-2'></i><button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -74,7 +77,7 @@
 <!--col-6  opan-->
     <div class="col-lg-6 col-md-6">
 <div class="feather">
-  <h3>WEb-Davolapar</h3>
+  <h3><i class='bx bx-cart-download'></i>WEb-Davolapar</h3>
 <h4>Md  <span class="demo"> Hasib Howlader</span></h4>
 <hr class="hro">
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, vitae tempore! Est itaque explicabo, quibusdam nihil perferendis quos libero commodi numquam animi quaerat quae praesentium, inventore, officia debitis fugiat ipsam.
@@ -91,9 +94,9 @@
 
 </div>
 <div class="form mt-4">
-  <button  onclick="thimall()" class="form-control btn btn-success">Thim-color</button>
+  <button  onclick="thimall()" class="form-control btn btn-success"><i class='bx bx-shape-circle'></i>Thim-color</button>
   <br>
-  <button onclick="rmthim()" class="form-control btn btn-warning">removm-color</button>
+  <button onclick="rmthim()" class="form-control btn btn-warning"><i class='bx bx-log-out-circle'></i>removm-color</button>
 
 
 </div>
@@ -123,7 +126,57 @@
 </main>
 
   <!--main close-->
-  <!--about pan>-->
+
+
+  <!--slaidar opan-->
+
+<sliser>
+ <div class="slaid mt-4">
+  <h1 class="text-center sk"><i class='bx bx-slideshow slim1'></i>Slaider-img</h1>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="sl1.jpg" class="d-block w-100 sli-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h2>Md Hasib hOwlader</h2>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="sl2.jpg" class="d-block w-100 sli-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Md Hasib hOwlader</h2>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="sl3.jpg" class="d-block w-100 sli-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Md Hasib hOwlader</h2>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ </div>
+</sliser>
+  <!--slaider close-->
+
+
+  <!--about opan>-->
 <about>
   <div class="about">
     <h1 class="ab"><i class='bx bxs-hard-hat abo'></i>About me</h1>
@@ -148,10 +201,10 @@
     <!--col-close-->
 
     <!--col- opan-->
-    <div class="col-lg-6">
+    <div class="col-lg-6 ">
       <div class="row">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
   <!--flo opan1-->
   <div class="flo1">
     <h5 class="text-center"><i class='bx bxs-face-mask'></i></i>Me</h5>
@@ -182,7 +235,7 @@
     <!--flo close 1-->
         </div>
       
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <!--flo opan1-->
           <div class="flo1">
             <h5 class="text-center"><i class='bx bxs-face-mask'></i></i>Collage</h5>
@@ -222,6 +275,450 @@
 </about>
   <!--about close-->
 
+
+<!--feather oan-->
+<feather>
+  <div class="feather">
+    <h2 class="all-feather"><i class='bx bx-cart-download'></i>All-Feather</h2>
+  <button class="btn btn-success pro"><i class='bx bxs-happy-beaming'></i>ALL-Profile</button>
+  <button class="btn btn-warning"><i class='bx bxs-category-alt'></i>Orna-House</button>
+  <button class="btn btn-danger"><i class='bx bxl-digg'></i>Parfeum</button>
+  <button class="btn btn-primary"><i class='bx bx-dumbbell'></i>Kosmatiks</button>
+  </div>
+  <!--feather-bio opan-->
+  <div class="fe-bio">
+<div class="row">
+
+
+<!--col-1 opan-->
+<div class="col-lg-3 col-md-6">
+<div class="fe-thi"id="demo">
+  <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+  </a>
+  <img class="fe-im"src="man1.jpg"alt="">
+  <h5>Md Jony khan</h5>
+  <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+<span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+
+</span><br>
+  <button class="btn btn-warning mt-4 pro1">Profile</button>
+  <button class="btn btn-primary mt-4">ALl-veo</button>
+<div class="fe-ic mt-4">
+  <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+  <a href="#"><i class='bx bxl-youtube'></i></a>
+  <a href="#"><i class='bx bxl-linkedin'></i></a>
+  <a href="#"><i class='bx bx-chat'></i></a>
+
+</div>
+</div>
+</div>
+<!--col-1-close-->
+
+
+
+<!--col-2 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="man2.jpg"alt="">
+    <h5>Md Dravo sen</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-2-close-->
+  
+
+  
+<!--col-3 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="man3.jpg"alt="">
+    <h5>Md gupta khan</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-3-close-->
+  
+
+<!--col-4 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="man4.jpg"alt="">
+    <h5>Md Bravo Lal</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-4-close-->
+  
+
+
+  
+<!--col-5 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="orna1.jpg"alt="">
+    <h5>Fashion-Degain</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-5-close-->
+  
+  
+  
+  <!--col-6 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="orna2.jpg"alt="">
+      <h5>New Collaction</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-6-close-->
+    
+  
+    
+  <!--col-7 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="orna3.jpg"alt="">
+      <h5>Hotde Orna</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-7-close-->
+    
+  
+  <!--col-8 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="orna4.jpg"alt="">
+      <h5>Jori Style</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-8-close-->
+    
+
+
+    
+<!--col-9 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="crem1.jpg"alt="">
+    <h5>Moischar Crem</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-9-close-->
+  
+  
+  
+  <!--col-10 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="crem2.jpg"alt="">
+      <h5>Face Light</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-10-close-->
+    
+  
+    
+  <!--col-11 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="crem3.jpg"alt="">
+      <h5>Mskin white</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-11-close-->
+    
+  
+  <!--col-12 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="crem4.jpg"alt="">
+      <h5>Glory skin </h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-12-close-->
+    
+
+
+<!--col-13 opan-->
+<div class="col-lg-3 col-md-6">
+  <div class="fe-thi">
+    <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+    </a>
+    <img class="fe-im"src="par1.jpg"alt="">
+    <h5>Miste-flavar</h5>
+    <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+  <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+  
+  </span><br>
+    <button class="btn btn-warning mt-4">Profile</button>
+    <button class="btn btn-primary mt-4">ALl-veo</button>
+  <div class="fe-ic mt-4">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bx-chat'></i></a>
+  
+  </div>
+  </div>
+  </div>
+  <!--col-13-close-->
+  
+  
+  
+  <!--col-14 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="par2.jpg"alt="">
+      <h5>Glory Sent</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-14-close-->
+    
+  
+    
+  <!--col-15 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="par3.jpg"alt="">
+      <h5>Black Power</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-15-close-->
+    
+  
+  <!--col-16 opan-->
+  <div class="col-lg-3 col-md-6">
+    <div class="fe-thi">
+      <a href="#"> <i class='bx bx-cart-download ii-a'></i>
+      </a>
+      <img class="fe-im"src="par4.jpg"alt="">
+      <h5>Skin Sent</h5>
+      <span class="fe-we"><i class='bx bx-slider-alt'></i>Web-Davolapar</span><br>
+    <span class="fe-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolore!
+    
+    </span><br>
+      <button class="btn btn-warning mt-4">Profile</button>
+      <button class="btn btn-primary mt-4">ALl-veo</button>
+    <div class="fe-ic mt-4">
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bx-chat'></i></a>
+    
+    </div>
+    </div>
+    </div>
+    <!--col-16-close-->
+    
+
+
+
+
+
+
+
+</div>
+  </div>
+  <!--feather -bio close-->
+</feather>
+<!--feather close-->
+
+
+
+
+
   <!--contack me opan-->
 <contack>
   <div class="contack">
@@ -258,7 +755,7 @@
  <a href="#"><i class='bx bxl-google-plus fe-ad' ></i></i></a><p class="fec">GooGle.com</p>
 
 </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117658.84846382988!2d89.46246060782333!3d22.845444785574262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e0!3m2!1sen!2sbd!4v1656271885055!5m2!1sen!2sbd" width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117658.84846382988!2d89.46246060782333!3d22.845444785574262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e0!3m2!1sen!2sbd!4v1656271885055!5m2!1sen!2sbd"class="map2" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
         <!--col-lg-6 cloase2-->
     </div>
@@ -313,7 +810,7 @@
       </div>
       <div class="row">
 <!--opan-->
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6">
 <div class="fo">
   <h5><i class='bx bx-body'></i>MAn'S</h5>
   <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aut dolores veritatis sapiente voluptates dicta.
@@ -328,48 +825,38 @@
 <!--close-->
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6">
         <div class="fo">
           <h5><i class='bx bx-body'></i>About-us</h5>
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aut dolores veritatis sapiente voluptates dicta.
-        
-          </p>
-        <div class="icon4">
-          <a href=""><i class='bx bxl-facebook-circle'></i></a>
-        <a href=""><i class='bx bxl-youtube'></i></a>
-        <a href=""><i class='bx bxl-linkedin'></i></a>
-        <a href=""><i class='bx bx-chat'></i></a>
-        </div>
+        <h4>Name:Hasib</h4>
+        <p>Address:Khulna</p>
+        <p>countr:Bangldesh</p>
+       
         <!--close-->
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-3 col-md-6">
                 <div class="fo">
                   <h5><i class='bx bx-body'></i>Contack-us</h5>
-                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aut dolores veritatis sapiente voluptates dicta.
-                
-                  </p>
-                <div class="icon4">
-                  <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                <a href=""><i class='bx bxl-youtube'></i></a>
-                <a href=""><i class='bx bxl-linkedin'></i></a>
-                <a href=""><i class='bx bx-chat'></i></a>
+                 
+                <div class="icon4a">
+                  <a href="#"><i class='bx bxl-facebook-circle'></i></a>FAcebook
+                  <br>
+                <a href="#"><i class='bx bxl-youtube'></i></a>Youtube
+                <br>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>lindin
+                <br>
+                <a href="#"><i class='bx bx-chat'></i></a>Message
                 </div>
                 <!--close-->
                         </div>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-md-6">
                         <div class="fo">
                           <h5><i class='bx bx-body'></i>location</h5>
-                          <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aut dolores veritatis sapiente voluptates dicta.
+                          <i class='bx bx-target-lock'></i>khulna
                         
-                          </p>
-                        <div class="icon4">
-                          <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                        <a href=""><i class='bx bxl-youtube'></i></a>
-                        <a href=""><i class='bx bxl-linkedin'></i></a>
-                        <a href=""><i class='bx bx-chat'></i></a>
-                        </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117658.84846383004!2d89.46246060782333!3d22.845444785574262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e0!3m2!1sen!2sbd!4v1656309173676!5m2!1sen!2sbd"class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <!--close-->
                                 </div>
                               </div>

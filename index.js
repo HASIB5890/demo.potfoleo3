@@ -47,3 +47,18 @@ function non(){
     let con=document.querySelector(".contack");
     con.classList.remove("hasib");
  }
+// opan
+ document.querySelector(".pro").addEventListener("click",profile);
+ function profile(){
+
+alert("hasib")
+ }
+//  close
+// pro opan
+let profi1=document.querySelector(".pro1");
+profi1.addEventListener("click",frofilae1);
+function frofilae1(){
+    // frofilae1.classList.add("pps");
+    alert('plase w8 Edat for code');
+}
+//pro close
