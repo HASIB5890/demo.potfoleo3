@@ -47,18 +47,35 @@ function non(){
     let con=document.querySelector(".contack");
     con.classList.remove("hasib");
  }
-// opan
- document.querySelector(".pro").addEventListener("click",profile);
- function profile(){
+// opan profail1
+// let len=document.querySelectorAll(".proh").length
+// for( let x=0;x<len;x++){
+//     document.querySelectorAll(".proh")[x].addEventListener("click",mess)
+// function mess(){
+//     let text=this.innerHTML;
 
-alert("hasib")
- }
-//  close
-// pro opan
-let profi1=document.querySelector(".pro1");
-profi1.addEventListener("click",frofilae1);
-function frofilae1(){
-    // frofilae1.classList.add("pps");
-    alert('plase w8 Edat for code');
+// }
+// }
+// profile one 
+function lara(){
+ document.querySelector(".lj").classList.add("active")
 }
-//pro close
+function clo(){
+    document.querySelector(".lj").classList.remove("active")
+   }
+//  profile on close
+// payment opan
+function pay(){
+  document.querySelector(".payment").classList.add("activepy")
+}
+function payclo(){
+    document.querySelector(".payment").classList.remove("activepy")
+  }
+// payment close
+// pay2 opan
+function pasa2(){
+    alert("hllo");
+}
+
+
+// ay2 close

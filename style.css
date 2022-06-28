@@ -391,7 +391,8 @@ box-shadow: 5px 5px 15px grey;
 .ii-a{
     position: absolute;
     margin-left: 90px;
-    font-size: 30px;
+    font-size: 20px;
+    border-radius: 20px;
 }
 /* feather close */
 
@@ -435,4 +436,49 @@ padding:10px;
 }
 /* footer close */
 
+/* paymeny opan */
+.pay{
+    cursor: pointer;
+    margin-left: 150px;
+    font-size: 35px;
+    color: blue;
+    font-weight: bolder; 
+}
+.payment{
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+background-color: burlywood;
+height: 230px;
+width: 220px;
+z-index: 1;
+border-radius: 20px;
+}
+.activepy{
+opacity: 1;
+}
+/* payment close */
+/* active fantion start */
+.lj{
+    color: azure;
+    position: absolute;
+    background-color: blue;
+    height: 230px;
+    width: 220px;
+  border-radius: 20px;
+z-index: 1;
+  opacity: 0;
+}
+.active{
+    z-index: 2;
+opacity: 1;
+}
+.adf{
+    cursor: pointer;
+    margin-left: 150px;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+}
+/* active fantion close */
 
